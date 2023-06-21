@@ -45,3 +45,8 @@ elModalO.addEventListener('click', function () {
     elModal.classList.add('hidden');
     elModalO.classList.add('hidden')
 })
+const elOver = document.querySelector('.js-overlay')
+
+setTimeout(() => {
+    elOver.classList.add('hidden')
+}, 5000);

@@ -44,6 +44,20 @@ body{
     position: fixed;
     right: -90px;
 }
+.overlay-div{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    z-index: 33;
+}
+
+.loding-img{
+    position: fixed;
+    right: 43%;
+    bottom: 33%;
+}
 .btn{
     cursor: pointer;
     padding: 10px 30px 10px;
